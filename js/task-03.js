@@ -15,3 +15,8 @@ const images = [
 
 const container = document.querySelector(`.gallery`);
 console.dir(container);
+const marcup = images
+  .map(({ url, alt }) => `<li>
+<img src = "${url}" alt = "${alt}".join("");
+</li>`);
+container.insertAdjacentHTML("beforeend", marcup);
