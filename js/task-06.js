@@ -8,7 +8,7 @@ function inInputBlur(event) {
     const requiredLength = input.dataset.length;
 
 
-    if (inputValue.length === Number(requiredLength)) {
+    if (inputValue.length >= Number(requiredLength)) {
         input.classList.remove('invalid');
         input.classList.add('valid');
          
