@@ -8,4 +8,4 @@ input.addEventListener(`input`, event => {
         output.textContent = 'Anonymous'
     }
 })
-console.dir(output);
+console.dir(output);   
